@@ -1,16 +1,45 @@
-# React + Vite
+# 🧠 React Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Memory Card Game built using React.js. Players flip cards to find matching pairs while tracking their score and moves. The game includes card shuffling, match detection, score calculation, and game reset functionality.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://react-memory-card-alpha.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎴 Interactive card flipping
+* 🔀 Randomized card shuffling on every game
+* 🎯 Match pair detection
+* 📊 Score tracking
+* 🔢 Move counter
+* 🔄 New Game / Reset functionality
+* 📱 Responsive design
+* ⚡ Smooth UI interactions
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
+
+## 📚 Concepts Practiced
+
+* Functional Components
+* React Hooks (`useState`, `useEffect`)
+* Event Handling
+* Conditional Rendering
+* State Management
+* Array Manipulation
+* Component-Based Architecture
+* Game Logic Implementation
+
+## 🎮 How to Play
+
+1. Click a card to reveal its symbol.
+2. Click another card to find its matching pair.
+3. If both cards match, they remain visible.
+4. If they don't match, they flip back after a short delay.
+5. Match all pairs to complete the game.
+6. Try to finish with the fewest moves possible!
